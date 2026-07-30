@@ -1,19 +1,42 @@
 aid: amplify-md
 name: Amplify MD
-description: 'Amplify MD is a company surfaced as a portfolio company of greylock and added to the API
-  Evangelist network as a stub for enrichment. Sector: applications. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'AmplifyMD is a healthcare technology company providing an EHR-integrated
+  virtual care platform that helps hospitals and health systems build, manage, and
+  scale high-quality virtual care across emergent, inpatient, asynchronous, virtual
+  clinic, and direct-to-patient settings. The company operates a nationwide network
+  of remote specialists across 15+ medical fields, reporting 400+ active programs,
+  a 50-state footprint, and 220,000+ annual consults. It was surfaced as a portfolio
+  company of Greylock and added to the API Evangelist network for enrichment; the
+  company publishes a marketing site and an app login but no public developer/API
+  surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/amplify-md/refs/heads/main/apis.yml
 x-type: company
 x-source: greylock-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://amplifymd.com/wp-content/uploads/2025/08/AmplifyMD_Symbol_Primary_Full_Color_Darker_Green_RGB.jpg
 tags:
 - Company
 - Applications
+- Healthcare
+- Telehealth
+- Virtual Care
+- Digital Health
+- EHR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,22 @@ maintainers:
 common:
 - type: Website
   url: https://amplifymd.com
+- type: Blog
+  url: https://amplifymd.com/blog/
+- type: BlogRSS
+  url: https://amplifymd.com/blog/feed/
+- type: TermsOfService
+  url: https://amplifymd.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://amplifymd.com/privacy-policy/
+- type: Login
+  url: https://app.amplifymd.com/login
+- type: Support
+  url: https://amplifymd.com/contact/
+- type: DomainSecurity
+  url: security/amplify-md-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
